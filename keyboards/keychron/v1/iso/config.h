@@ -26,3 +26,13 @@
 
 /* Enable caps-lock LED */
 #define CAPS_LOCK_LED_INDEX 44
+/* Enable num-lock LED */
+#define NUM_LOCK_LED_INDEX 10
+/*
+    Invert the way Num Lock LED turned on
+    If commented, the LED will be turned on when Num Lock is off (default)
+    If uncommented, the LED will be turned on when Num Lock is on
+*/
+// #define NUM_LOCK_LED_LOCK_INVERT
+/* Enable scroll-lock LED */
+#define SCROLL_LOCK_LED_INDEX 11
